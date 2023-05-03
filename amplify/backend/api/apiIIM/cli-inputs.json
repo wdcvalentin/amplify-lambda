@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "paths": {
+    "/getToken": {
+      "name": "/getToken",
+      "lambdaFunction": "amplifyGetUser",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/sendData": {
+      "name": "/sendData",
+      "lambdaFunction": "sendData",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/sendDataWebhook": {
+      "name": "/sendDataWebhook",
+      "lambdaFunction": "sendDataWebhook",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

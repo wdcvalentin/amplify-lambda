@@ -1,0 +1,35 @@
+{
+  "lambdaLayers": [
+    {
+      "type": "ProjectLayer",
+      "resourceName": "amplifyuuidapiResponse",
+      "version": "Always choose latest version",
+      "isLatestVersionSelected": true,
+      "env": "dev"
+    }
+  ],
+  "permissions": {
+    "function": {
+      "addDataS3": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ],
+      "amplifyadduser": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    },
+    "storage": {
+      "data": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  }
+}
